@@ -501,7 +501,7 @@ export default function App() {
                   <span>Run Post-Validation</span>
                 </button>
                 <a
-                  href={`/api/incidents/${selectedIncident.incident_id}/report.pdf`}
+                  href={api.getReportPdfUrl(selectedIncident.incident_id)}
                   download
                   className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded text-xs font-medium transition flex items-center space-x-1"
                 >

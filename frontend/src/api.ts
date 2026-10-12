@@ -1,5 +1,5 @@
 // API client for Telecom NOC Backend
-const API_BASE = '/api';
+const API_BASE = import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/api` : '/api';
 
 export interface Device {
   device_id: string;
@@ -233,5 +233,8 @@ export const api = {
   getHistoricalIncidents: async () => {
     const res = await fetch(`${API_BASE}/knowledge/incidents`);
     return res.json();
+  },
+  getReportPdfUrl: (incidentId: string) => {
+    return `${API_BASE}/incidents/${incidentId}/report.pdf`;
   }
 };
