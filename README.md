@@ -6,6 +6,15 @@ A Network Operations Center (NOC) **decision-support platform** utilizing 8 spec
 
 ---
 
+### 🌐 Live Application & Submission Links
+- **GitHub Repository:** [https://github.com/Kavya1240/Brightcone.ai-Assignment](https://github.com/Kavya1240/Brightcone.ai-Assignment)
+- **Live Frontend (Vercel):** [https://brightcone-ai-assignment.vercel.app](https://brightcone-ai-assignment.vercel.app)
+- **Live Backend API (Render):** [https://brightcone-ai-assignment.onrender.com](https://brightcone-ai-assignment.onrender.com)
+- **Interactive Swagger Docs:** [https://brightcone-ai-assignment.onrender.com/docs](https://brightcone-ai-assignment.onrender.com/docs)
+- **API Health Check:** [https://brightcone-ai-assignment.onrender.com/health](https://brightcone-ai-assignment.onrender.com/health)
+
+---
+
 ## Table of Contents
 1. [Project Overview](#1-project-overview)
 2. [Problem Statement](#2-problem-statement)
